@@ -1,29 +1,130 @@
-# Put your custom build plans here
-
-[buildPlans.IosevkaCustomSample]
-family = "Iosevka Custom Sample"
-spacing = "normal"
+[buildPlans.Martysevka]
+family = "Martysevka"
+spacing = "term"
 serifs = "sans"
-noCvSs = true
+noCvSs = false
 exportGlyphNames = false
 
-[buildPlans.IosevkaCustomSample.weights.Regular]
+[buildPlans.Martysevka.variants.design]
+two = "straight-neck-serifless"
+three = "flat-top-serifless"
+five = "upright-arched-serifless"
+seven = "straight-serifless"
+capital-d = "standard-serifless"
+capital-j = "flat-hook-serifed"
+a = "double-storey-serifless"
+f = "flat-hook-serifless"
+g = "double-storey"
+i = "serifed-semi-tailed"
+j = "flat-hook-serifed"
+l = "serifed-flat-tailed"
+m = "serifless"
+r = "hookless-serifless"
+t = "flat-hook"
+u = "tailed-serifless"
+capital-eszet = "corner-serifless"
+tittle = "round"
+tilde = "low"
+asterisk = "penta-high"
+underscore = "high"
+paren = "normal"
+guillemet = "straight"
+ampersand = "closed"
+at = "threefold"
+dollar = "through"
+percent = "rings-continuous-slash"
+
+[buildPlans.Martysevka.variants.italic]
+capital-a = "straight-serifless"
+capital-b = "standard-bilateral-serifed"
+capital-d = "standard-bilateral-serifed"
+capital-e = "top-left-serifed"
+capital-f = "top-left-serifed"
+capital-g = "toothed-serifless-hooked"
+capital-h = "top-left-serifed"
+capital-k = "straight-top-left-serifed"
+capital-m = "hanging-motion-serifed"
+capital-n = "standard-motion-serifed"
+capital-p = "closed-motion-serifed"
+capital-r = "straight-top-left-serifed"
+capital-u = "toothless-rounded-unilateral-motion-serifed"
+capital-v = "straight-motion-serifed"
+capital-w = "straight-motion-serifed"
+capital-x = "straight-unilateral-motion-serifed"
+a = "single-storey-serifless"
+b = "toothed-motion-serifed"
+d = "toothed-top-serifed"
+e = "flat-crossbar"
+f = "flat-hook-extended"
+g = "single-storey-flat-hook-serifless"
+h = "straight-top-left-serifed"
+i = "hooky"
+j = "flat-hook-serifed"
+k = "straight-top-left-serifed"
+l = "hooky"
+m = "top-left-serifed"
+n = "straight-top-left-serifed"
+p = "eared-motion-serifed"
+r = "hookless-top-serifed"
+u = "tailed-motion-serifed"
+v = "straight-motion-serifed"
+w = "straight-motion-serifed"
+x = "straight-unilateral-motion-serifed"
+y = "cursive-flat-hook-motion-serifed"
+capital-eszet = "corner-motion-serifed"
+
+[buildPlans.Martysevka.variants.oblique]
+capital-d = "standard-bilateral-serifed"
+capital-j = "flat-hook-serifed"
+a = "double-storey-serifless"
+f = "flat-hook-serifless"
+g = "double-storey"
+i = "serifed-semi-tailed"
+j = "flat-hook-serifed"
+l = "serifed-flat-tailed"
+m = "serifless"
+r = "hookless-serifless"
+t = "flat-hook"
+u = "tailed-serifless"
+capital-eszet = "corner-serifless"
+tittle = "round"
+tilde = "low"
+asterisk = "penta-high"
+underscore = "high"
+paren = "normal"
+guillemet = "straight"
+ampersand = "closed"
+at = "threefold"
+dollar = "through"
+percent = "rings-continuous-slash"
+
+[buildPlans.Martysevka.weights.Regular]
 shape = 400
 menu = 400
 css = 400
 
-[buildPlans.IosevkaCustomSample.weights.Bold]
+[buildPlans.Martysevka.weights.Bold]
 shape = 700
 menu = 700
 css = 700
 
-[buildPlans.IosevkaCustomSample.slopes.Upright]
+[buildPlans.Martysevka.widths.Condensed]
+shape = 500
+menu = 3
+css = "condensed"
+
+[buildPlans.Martysevka.widths.Normal]
+shape = 600
+menu = 5
+css = "normal"
+
+[buildPlans.Martysevka.slopes.Upright]
 angle = 0
 shape = "upright"
 menu = "upright"
 css = "normal"
 
-[buildPlans.IosevkaCustomSample.slopes.Italic]
+[buildPlans.Martysevka.slopes.Italic]
 angle = 9.4
 shape = "italic"
 menu = "italic"
