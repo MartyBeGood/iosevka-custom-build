@@ -21,7 +21,7 @@ l = "serifed-flat-tailed"
 m = "serifless"
 r = "hookless-serifless"
 t = "flat-hook"
-u = "tailed-serifless"
+u = "toothed-serifless"
 capital-eszet = "corner-serifless"
 tittle = "round"
 tilde = "low"
@@ -72,41 +72,6 @@ w = "straight-motion-serifed"
 x = "straight-unilateral-motion-serifed"
 y = "cursive-flat-hook-motion-serifed"
 capital-eszet = "corner-motion-serifed"
-
-[buildPlans.Martysevka.variants.oblique]
-capital-d = "standard-bilateral-serifed"
-capital-j = "flat-hook-serifed"
-a = "double-storey-serifless"
-f = "flat-hook-serifless"
-g = "double-storey"
-i = "serifed-semi-tailed"
-j = "flat-hook-serifed"
-l = "serifed-flat-tailed"
-m = "serifless"
-r = "hookless-serifless"
-t = "flat-hook"
-u = "tailed-serifless"
-capital-eszet = "corner-serifless"
-tittle = "round"
-tilde = "low"
-asterisk = "penta-high"
-underscore = "high"
-paren = "normal"
-guillemet = "straight"
-ampersand = "closed"
-at = "threefold"
-dollar = "through"
-percent = "rings-continuous-slash"
-
-[buildPlans.Martysevka.weights.Regular]
-shape = 400
-menu = 400
-css = 400
-
-[buildPlans.Martysevka.weights.Bold]
-shape = 700
-menu = 700
-css = 700
 
 [buildPlans.Martysevka.widths.Condensed]
 shape = 500
