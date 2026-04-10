@@ -12,6 +12,7 @@ five = "upright-arched-serifless"
 seven = "straight-serifless"
 capital-d = "standard-serifless"
 capital-j = "flat-hook-serifed"
+capital-q = "crossing"
 a = "double-storey-serifless"
 f = "flat-hook-serifless"
 g = "double-storey"
@@ -46,18 +47,19 @@ capital-k = "straight-top-left-serifed"
 capital-m = "hanging-motion-serifed"
 capital-n = "standard-motion-serifed"
 capital-p = "closed-motion-serifed"
+capital-q = "curly-tailed"
 capital-r = "straight-top-left-serifed"
 capital-u = "toothless-rounded-unilateral-motion-serifed"
 capital-v = "straight-motion-serifed"
 capital-w = "straight-motion-serifed"
 capital-x = "straight-unilateral-motion-serifed"
-a = "single-storey-serifless"
-b = "toothed-motion-serifed"
-d = "toothed-top-serifed"
-e = "flat-crossbar"
+a = "single-storey-tailed"
+b = "toothed-serifless"
+d = "toothed-bottom-serifed"
+e = "rounded"
 f = "flat-hook-extended"
-g = "single-storey-flat-hook-serifless"
-h = "straight-top-left-serifed"
+g = "single-storey-flat-hook-serifed"
+h = "tailed-serifless"
 i = "hooky"
 j = "flat-hook-serifed"
 k = "straight-top-left-serifed"
@@ -66,12 +68,24 @@ m = "top-left-serifed"
 n = "straight-top-left-serifed"
 p = "eared-motion-serifed"
 r = "hookless-top-serifed"
-u = "tailed-motion-serifed"
-v = "straight-motion-serifed"
-w = "straight-motion-serifed"
-x = "straight-unilateral-motion-serifed"
-y = "cursive-flat-hook-motion-serifed"
+t = "flat-hook"
+u = "tailed-serifless"
+v = "curly-serifless"
+w = "curly-serifless"
+x = "semi-chancery-straight-serifless"
+y = "cursive-serifless"
+z = "curly-serifless"
 capital-eszet = "corner-motion-serifed"
+
+[buildPlans.Martysevka.weights.Regular]
+shape = 400
+menu = 400
+css = 400
+
+[buildPlans.Martysevka.weights.Bold]
+shape = 700
+menu = 700
+css = 700
 
 [buildPlans.Martysevka.widths.Condensed]
 shape = 500
